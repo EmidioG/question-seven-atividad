@@ -1,0 +1,78 @@
+body {
+    font-family: MontSerrat;
+    font-weight: 600;
+    max-width: 400px;
+}
+
+.navegação ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: #e7e7e7;
+    border-radius: 4px;
+}
+
+section {
+    display: none;
+}
+
+.navegação .active {
+    background-color: #303030;
+    color: white;
+}
+
+section.active {
+    display: block;
+}
+
+/*? form */
+
+label {
+    display: block;
+    font-size: 2rem;
+    margin: 10px 0;
+}
+
+input,
+textarea {
+    width: 300px;
+}
+
+.btn {
+    width: 324px;
+}
+
+input,
+textarea {
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    padding: 10px;
+    border: black solid 2px;
+    border-radius: 4px;
+}
+
+label + *:focus,
+.btn:hover {
+    background-color: black;
+    color: white;
+    border-color: blue;
+    transition: 0.3s;
+}
+
+textarea {
+    display: block;
+    margin: 10px 0;
+}
+
+.btn:hover {
+    transition: 0.3s;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>painel de navegação</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navegação">
+            <ul>
+                <li>
+                    <a class="active" href="#inicio">Inicio</a>
+                </li>
+                <li>
+                    <a href="#sobre">Sobre Nós</a>
+                </li>
+                <li>
+                    <a href="#contato">Contato</a>
+                </li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="active">
+            <h1>Bem-vindo à minha página com painel de navegação!</h1>
+            <p>Este é um exemplo simples de como criar um painel de navegação usando HTML e CSS.</p>
+        </section>
+
+        <section id="sobre">
+            <h1>Aoba!</h1>
+            <p>soy un mero estudent</p>
+        </section>
+        <section id="contato">
+            <h1>Entre em contato:</h1>
+
+            <form action="./" method="get">
+                <label for="name">nome:</label>
+                <input type="text" name="name" id="name">
+
+                <label for="email">email</label>
+                <input type="email" name="email" id="email" placeholder="example@email.com">
+
+                <label for="msg">o que desejas?</label>
+                <textarea name="msg" id="msg" rows="10"></textarea>
+
+                <input class="btn" type="submit" value="Enviar">
+            </form>
+        </section>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
